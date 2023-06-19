@@ -2,7 +2,12 @@ var app = new Vue({
   el: "#app",
   data() { 
     return {
-        message: 'Hello Vue!'
+        counter: 0
+    }
+  },
+  methods: {
+    substract: function(){
+        this.counter--
     }
   }
 }) 
